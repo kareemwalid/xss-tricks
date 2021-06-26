@@ -2,3 +2,4 @@ For no ending tag
 <img src=no onerror=alert(1) foo=
 
 "&gt;&lt;img src=x onerror=alert(document.domain)&gt; 
+&quot;&amp;gt;&amp;lt;img src=x onerror=alert(document.domain)&amp;gt;
